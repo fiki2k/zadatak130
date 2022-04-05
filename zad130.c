@@ -28,7 +28,7 @@ int main()
     {
         for(j=0; j<n; j++)
         {
-            // Sprema svaki redak matrice A ustupce matrice B.
+            // Sprema svaki redak matrice A u stupce matrice B.
             B[i][j] = A[j][i];
         }
     }
@@ -41,7 +41,7 @@ int main()
     {
         for(j=0; j<n; j++)
         {
-            // Ako matrica Anije jednaka transponiranoj.
+            // Ako matrica A nije jednaka transponiranoj.
             if(A[i][j] != B[i][j])
             {
                 simetricna = 0;
